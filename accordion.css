@@ -1,0 +1,72 @@
+/* ... (your other styles) ... */
+
+.collapse {
+  border: 1px solid #ccc;
+  margin: 20px;
+  /* padding: 10px; */
+  width: 500px;
+  border-radius: 10px;
+}
+
+.collapse-title {
+  cursor: pointer;
+  background-color: #334FBA;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collapse-title:hover {
+  background-color: #273c8a;
+}
+
+.collapse-content {
+  display: none;
+  padding: 10px;
+  background-color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.collapse .arrow {
+  width: 16px;
+  height: 16px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="radio"]:checked + .collapse-title + .collapse-content {
+  display: block;
+}
+
+section h3 {
+  text-align: center;
+  font-size: 32px;
+  color: #273c8a;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 44px;
+}
+
+label{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p{
+  font-size: 18px;
+}
+
+.accordion_col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
